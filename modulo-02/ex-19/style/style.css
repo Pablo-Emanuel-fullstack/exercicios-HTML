@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(77, 77, 77);
+}
+main{
+    background-color: #ffff;
+    border-radius: 15px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+h1{
+    background-color: #50A2FA;
+    text-align: center;
+    color: #ffff;
+}
+h1#titulo{
+    border-radius: 12px;
+    box-shadow: #0b253fab 4px 3px 8px;
+    background-image: radial-gradient(circle at 20% 30%,#0b253f, #50A2FA );
+}
+.Iportante{
+    color: #FA1B0A;
+    background-color: #3EA568;
+    border-radius: 12px;
+    box-sizing: unset 48px;
+}

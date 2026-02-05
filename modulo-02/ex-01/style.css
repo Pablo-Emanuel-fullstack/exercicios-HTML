@@ -1,0 +1,59 @@
+/* Arquivo: style.css */
+
+/* Configurações Gerais - O "corpo" do site */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+/* Deixando os títulos bonitões */
+h2 {
+    color: #ffffff;
+    background: linear-gradient(90deg, #2c3e50, #3498db);
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-bottom: 4px solid #f1c40f;
+}
+
+/* Organizando os blocos de texto */
+p, ul {
+    background: #ffffff;
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Estilo para as listas de HSL e Transparência */
+ul {
+    list-style-position: inside;
+}
+
+li {
+    margin-bottom: 8px;
+    color: #555;
+}
+
+/* Destaque para os códigos HTML/CSS */
+code {
+    background-color: #272822;
+    color: #f8f8f2;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-family: 'Consolas', monospace;
+    font-size: 0.95rem;
+}
+
+/* Ênfase especial */
+strong {
+    color: #e67e22;
+}
